@@ -722,7 +722,7 @@ span{
     .projects .container{
         flex-direction: column;
         align-items: center;
-        width: 80rem;
+        width: 100%;
     }
 }
 
