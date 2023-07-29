@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshat Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+      </style>
+</head>
+<body>
+    <header class ="header">
+        <a href = "#" class="logo">Akshat.<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+        <nav class ="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+
+
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1 style="font-family: 'Cabin Sketch', cursive;">Hi, I'm <span style="font-family: 'Cabin Sketch', cursive; font-size: larger;">Akshat Dutta</span></h1>
+            <div class="text-animate">
+                <h3 style="font-family: cursive;"> Undergrad Student BITS Pilani, Goa</h3>
+                
+            </div>
+            <p style="font-size: 2rem;">Motivated by a fervent desire to learn and explore, I actively seek out new ideas. I satisfy my curiosity and
+                eagerness by rapidly acquiring new skills and knowledge, allowing me to adapt to changing environments
+                and challenges with ease. 
+                </p>
+            <div class="btn-box">
+                <a href="#projects" class="btn">Projects</a>
+                <a href="#contact" class="btn">Let's Talk</a>
+                
+            </div>        
+        </div>
+
+        <div class="home-sci">
+            <a href="https://www.linkedin.com/in/akshat-dutta/"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://github.com/duttaAkshat"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.instagram.com/ad.akshat/"><i class='bx bxl-instagram' ></i></a>
+            
+        </div>
+
+        <div class="home-imgHover"></div>
+        
+    </section>
+
+
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+
+        <div class="about-img">
+            <img src="/img/aboutimg.jpg" alt="" >
+            <span class="circle-spin"></span>
+        </div>
+        
+        <div class="about-content">
+            <!-- <h3>Akshat Dutta</h3> -->
+            <p style="font-size: 2rem;">I am Akshat Dutta, currently pursuing B.Tech. in Computer Science and Engineering from BITS Pilani, Goa campus. I completed my schooling from reputed convent schools of Jaipur with outstanding academic results, securing 97% in class 12th and 97.4% in class 10th.
+                <br>I am proficient in C++, Java, and Python and have a keen interest in Web Development and Machine Learning.
+                <br>Web Development: I completed an internship program in Full Stack Web Development through TechieNest, and have gained hands-on experience in HTML, CSS, JavaScript and frameworks like React, Node and Express, alongwith MongoDB, allowing me to enhance my skills in building webpages.
+                <br>Machine Learning: I completed some courses offered by Coursera, to learn the principles of Machine Learning algorithms. I have completed a few projects to gain hands-on-experience with the real-world problems.
+                <br>Apart from technical skills, I have developed strong soft skills throughout my academic journey. Some of them include Effective communication, Adaptability, Time management and problem solving. Recognizing my leadership potential, I was selected for the Peer Mentorship Program at our college, where I guide and support junior students in their academic and personal development.</p>
+        </div>
+    </section>
+
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>CSS <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>JavaScript <span>65%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>C++ <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Python <span>67%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Design <span>72%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Web Development <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Machine Learning <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span> Projects</span></h2>
+
+        <div style="display: flex; justify-content: space-between; flex-wrap: wrap" class="container">
+            <div class="card">
+                <img src="/img/pjt1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text" style="text-align: center;">Floppy Bird Game</p>
+                    <center><a href="https://github.com/duttaAkshat/Flappy_Bird" style="text-align: center;">Source code</a></center>
+                </div>
+            </div>      
+        
+            <div class="card">
+                <img src="/img/pjt2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text" style="text-align: center;">HackerRank Homepage</p>
+                    <center><a href="https://github.com/duttaAkshat/Hackerrank_clone_frontend" style="text-align: center;">Source code</a></center>
+                </div>
+            </div>      
+        
+            <div class="card">
+                <img src="/img/pjt3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text" style="text-align: center;">Portfolio webpage</p>
+                    <center><a href="https://github.com/duttaAkshat/Akshat-Portfolio" style="text-align: center;">Source code</a></center>
+                </div>
+            </div>      
+        <!-- </div>
+    <br>    
+    
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap"> -->
+        <div class="card">
+            <img src="/img/pjt4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text" style="text-align: center;">Movie Recommender System</p>
+                <center><a href="https://github.com/duttaAkshat/Movie-Recommender-system" style="text-align: center;">Source code</a></center>
+            </div>
+        </div>      
+    
+        <div class="card">
+            <img src="/img/pjt5.png" class="card-img-top" alt="..." >
+            <div class="card-body">
+                <p class="card-text" style="text-align: center;">Face Detector</p>
+                <center><a href="https://github.com/duttaAkshat/Face-Detection" style="text-align: center;">Source code</a></center>
+            </div>
+        </div>      
+    
+        <div class="card">
+            <img src="/img/pjt6.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text" style="text-align: center;">Delhi House price predictor</p>
+                <center><a href="https://github.com/duttaAkshat/Delhi-house-price-predictor" style="text-align: center;">Source code</a></center>
+            </div>
+        </div>      
+    </div>
+    <br>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span> Me!</span></h2>
+    
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>                
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>                
+            </div>
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <center><div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+            </div></center>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Akshat Dutta | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+
+    <script src = "script.js"></script>
+</body>
+</html>
