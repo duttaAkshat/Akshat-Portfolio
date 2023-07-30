@@ -137,6 +137,7 @@ section{
     animation-delay: 2s;
 }
 
+
 .home-content p{
     position: relative;
     font-size: 1.6rem;
@@ -640,6 +641,7 @@ span{
         width: 0;
     }
 }
+
 
 /* media queries */
 
