@@ -429,13 +429,13 @@ span{
     border: .4rem solid var(--main-color);
     margin: 1rem;
     /* width: 40rem;  */
-    height: 39rem;
+    height: auto;
     width: 31%; 
     margin-bottom: 20px;
 }
 
 .projects .card .card-img-top{
-    height: 25rem;
+    height: auto;
     width: 100%;
 }
 
